@@ -1,31 +1,11 @@
 package com.fit.basic.kr;
 
-import java.io.StringReader;
-import java.lang.ref.WeakReference;
-import java.net.URL;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
-
-
-
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-
-import android.app.Activity;
-import android.app.Dialog;
-
-import android.content.Intent;
-
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -35,12 +15,28 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
-
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.fit.basic.kr.Fragment.Activity_group_view;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+
+import java.io.StringReader;
+import java.lang.ref.WeakReference;
+import java.net.URL;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 
 /*-----------------------------------------------------------
  *  fit 리스트 보여주기 액티버티  규약 1.1 
@@ -908,6 +904,10 @@ public class Activity_group extends Activity {
 				Log.i("", "position?" + position);
 
 				Toast.makeText(getApplicationContext(), thread.al_group_name.get(position), Toast.LENGTH_SHORT).show();
+
+				Intent intent = new Intent(Activity_group.this, Activity_group_view.class);
+				intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+				startActivity(intent);
 
 				break;
 

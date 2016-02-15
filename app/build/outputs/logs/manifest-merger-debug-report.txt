@@ -148,36 +148,42 @@ ADDED from AndroidManifest.xml:56:17
 	android:name
 		ADDED from AndroidManifest.xml:56:27
 activity#com.fit.basic.kr.Activity_client
-ADDED from AndroidManifest.xml:60:9
+ADDED from AndroidManifest.xml:59:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:62:13
-	android:windowSoftInputMode
-		ADDED from AndroidManifest.xml:63:13
-	android:name
 		ADDED from AndroidManifest.xml:61:13
-activity#com.fit.basic.kr.Activity_group
-ADDED from AndroidManifest.xml:66:9
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:68:13
 	android:windowSoftInputMode
-		ADDED from AndroidManifest.xml:69:13
+		ADDED from AndroidManifest.xml:62:13
 	android:name
-		ADDED from AndroidManifest.xml:67:13
-activity#com.fit.basic.kr.Activity_write
-ADDED from AndroidManifest.xml:73:9
+		ADDED from AndroidManifest.xml:60:13
+activity#com.fit.basic.kr.Activity_group
+ADDED from AndroidManifest.xml:64:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:75:13
+		ADDED from AndroidManifest.xml:66:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:67:13
 	android:name
-		ADDED from AndroidManifest.xml:74:13
+		ADDED from AndroidManifest.xml:65:13
+activity#com.fit.basic.kr.Activity_write
+ADDED from AndroidManifest.xml:69:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:71:13
+	android:name
+		ADDED from AndroidManifest.xml:70:13
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from AndroidManifest.xml:80:9
+ADDED from AndroidManifest.xml:74:9
 	android:value
-		ADDED from AndroidManifest.xml:82:13
+		ADDED from AndroidManifest.xml:76:13
 	android:name
-		ADDED from AndroidManifest.xml:81:13
+		ADDED from AndroidManifest.xml:75:13
 meta-data#com.google.android.gms.version
-ADDED from AndroidManifest.xml:83:9
+ADDED from AndroidManifest.xml:77:9
 	android:value
-		ADDED from AndroidManifest.xml:85:13
+		ADDED from AndroidManifest.xml:79:13
 	android:name
-		ADDED from AndroidManifest.xml:84:13
+		ADDED from AndroidManifest.xml:78:13
+activity#com.fit.basic.kr.Fragment.Activity_group_view
+ADDED from AndroidManifest.xml:81:9
+	android:label
+		ADDED from AndroidManifest.xml:83:13
+	android:name
+		ADDED from AndroidManifest.xml:82:13

@@ -77,6 +77,11 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="6587034" />
+
+        <activity
+            android:name="com.fit.basic.kr.Fragment.Activity_group_view"
+            android:label="@string/title_activity_activity_group_view" >
+        </activity>
     </application>
 
 </manifest>

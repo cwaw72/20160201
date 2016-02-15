@@ -60,6 +60,10 @@
     
     <string name="adaptor_form_basic_content_comment">Input Measage</string>
     <string name="adaptor_form_basic_content_title">Memo</string>
+    <string name="title_activity_activity_group_view">Activity_group_view</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
     
     
     

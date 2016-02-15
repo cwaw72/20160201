@@ -13,6 +13,12 @@ import android.widget.TextView;
 public final class TestFragment extends Fragment {
     private static final String KEY_CONTENT = "TestFragment:Content";
 
+    final int NOTICE = 0;
+    final int CALENDAR = 1;
+    final int COMUNICATION = 2;
+    final int ETC = 3;
+
+
     public static TestFragment newInstance(String content) {
         TestFragment fragment = new TestFragment();
 
@@ -28,7 +34,13 @@ public final class TestFragment extends Fragment {
 
     private String mContent = "???";
 
-    @Override
+    private void setAdapterView(LayoutInflater inflater, ViewGroup container, int cases){
+        //view = inflater.inflate(R.layout.list)
+
+    }
+
+
+                                @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 

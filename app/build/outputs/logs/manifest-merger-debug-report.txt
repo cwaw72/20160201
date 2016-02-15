@@ -15,6 +15,9 @@ ADDED from AndroidManifest.xml:2:1
 		ADDED from AndroidManifest.xml:2:11
 uses-sdk
 ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
+MERGED from com.android.support:recyclerview-v7:22.2.1:20:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:9:9
 		INJECTED from AndroidManifest.xml:0:0
@@ -117,6 +120,8 @@ ADDED from AndroidManifest.xml:39:5
 		ADDED from AndroidManifest.xml:39:22
 application
 ADDED from AndroidManifest.xml:41:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
 	android:label
 		ADDED from AndroidManifest.xml:45:9
 	android:hardwareAccelerated

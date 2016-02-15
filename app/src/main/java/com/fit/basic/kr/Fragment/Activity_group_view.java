@@ -1,6 +1,7 @@
 package com.fit.basic.kr.Fragment;
 
 
+import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
@@ -17,6 +18,27 @@ public abstract class Activity_group_view extends FragmentActivity {
     TestFragmentAdapter mAdapter;
     ViewPager mPager;
     PageIndicator mIndicator;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_group_view);
+
+
+        /*
+
+        mAdapter = new TestFragmentAdapter(getSupportFragmentManager());
+
+        mPager = (ViewPager) findViewById(R.id.pager);
+        mPager.setAdapter(mAdapter);
+
+        mPager.setOffscreenPageLimit(9);
+
+        mIndicator = (IconPageIndicator) findViewById(R.id.indicator);
+        mIndicator.setViewPager(mPager);
+
+        */
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

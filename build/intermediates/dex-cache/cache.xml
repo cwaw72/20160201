@@ -2,11 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="C:\Users\Administrator\Documents\GitHub\20160201\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="C:\Users\Administrator\Documents\GitHub\20160201\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-4b5a6ed7e9e22e88e5c55e2e8f15ad0f8f4e50c4.jar" />
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\20160201\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-d82c2360d2dae6804c43b7fc5e865a807aa2772a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Documents\GitHub\20160201\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\20160201\app\build\intermediates\pre-dexed\debug\classes-21c5f55de0bcd60455a6ade0d0568175e41605a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Documents\GitHub\20160201\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\20160201\app\build\intermediates\pre-dexed\debug\classes-99abdaeff6c4dbd5471224b39451f83a1f4d5437.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\Administrator\Documents\GitHub\20160201\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-205ec8fcc4607e36aada470047c7eb10a78119d8.jar" />
     </item>
 
 </items>

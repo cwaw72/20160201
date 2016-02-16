@@ -11,8 +11,6 @@
     <string name="app_input_data_problem">Oops! \n Please input proper data </string>
 
 
-
-
     <!-- activity_main -->
 
     <string name="activity_main_app_comment">Welcome to Eduline!</string>
@@ -64,5 +62,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_group_test">Activity_group_test</string>
 
 </resources>

@@ -101,6 +101,7 @@
     <string name="element_header_edit_client">edit</string>
     <string name="element_header_title">client</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_group_test">Activity_group_test</string>
     <string name="title_activity_activity_group_view">Activity_group_view</string>
     <string name="tv_element_dialog_menu_card1">Notice Card</string>
     <string name="tv_element_dialog_menu_card2">Report Card</string>

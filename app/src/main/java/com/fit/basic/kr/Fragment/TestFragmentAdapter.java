@@ -6,13 +6,13 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.fit.basic.kr.R;
 
-class TestFragmentAdapter extends FragmentPagerAdapter implements IconPagerAdapter {
-    protected static final String[] CONTENT = new String[] { "성국", "준호", "동민", "은주", };
+public class TestFragmentAdapter extends FragmentPagerAdapter implements IconPagerAdapter {
+    protected static final String[] CONTENT = new String[] { "a", "b", "c", "d", };
     protected static final int[] ICONS = new int[] {
-            R.drawable.ic_action_notice,
-            R.drawable.ic_action_notice,
-            R.drawable.ic_action_notice,
-            R.drawable.ic_action_notice
+            R.drawable.ic_action_name,
+            R.drawable.ic_action_name,
+            R.drawable.ic_action_name,
+            R.drawable.ic_action_name
     };
 
     private int mCount = CONTENT.length;

@@ -21,7 +21,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.fit.basic.kr.Fragment.Activity_group_view;
+import com.fit.basic.kr.Fragment.Activity_group_test;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -906,9 +906,10 @@ public class Activity_group extends Activity {
 				Toast.makeText(getApplicationContext(), thread.al_group_name.get(position), Toast.LENGTH_SHORT).show();
 
 
+				Log.i("group_activity", "oncreate");
+
 				//그룹 클릭시 그룹에 맞는 group_view 호출
-				Intent intent = new Intent(Activity_group.this, Activity_group_view.class);
-				intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+				Intent intent = new Intent(Activity_group.this, Activity_group_test.class);
 				startActivity(intent);
 
 				break;

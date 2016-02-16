@@ -13,6 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.fit.basic.kr.Fragment.Activity_group_test;
+
 /*-----------------------------------------------------------
  * fit 내용보기 액티버티  규약 1.1 
  *  
@@ -218,7 +220,7 @@ public class Activity_client extends Activity {
 
 		case R.id.ll_element_footer_tab2:
 			
-			intent = new Intent(this, Activity_group.class);
+			intent = new Intent(this, Activity_group_test.class);
 			intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
 			startActivity(intent);
 			

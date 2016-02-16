@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
+import com.fit.basic.kr.Fragment.Activity_group_test;
+
 public class Activity_main extends Activity {
 
 	@Override
@@ -81,8 +83,8 @@ public class Activity_main extends Activity {
 
 					// 사용자가입액티버티로 이동
 
-					Intent intent = new Intent(Activity_main.this, Activity_client.class);
-					intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+					Intent intent = new Intent(Activity_main.this, Activity_group_test.class);
+					//intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
 					startActivity(intent);
 
 				}

@@ -379,9 +379,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int app_button=0x7f020000;
         public static final int app_logo=0x7f020001;
         public static final int blank=0x7f020002;
-        public static final int ic_action_name=0x7f020003;
-        public static final int ic_action_notice=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
+        public static final int ic_action_calendar_black=0x7f020003;
+        public static final int ic_action_calendar_green=0x7f020004;
+        public static final int ic_action_communication_black=0x7f020005;
+        public static final int ic_action_communication_green=0x7f020006;
+        public static final int ic_action_name=0x7f020007;
+        public static final int ic_action_notice_black=0x7f020008;
+        public static final int ic_action_notice_green=0x7f020009;
+        public static final int ic_action_students_black=0x7f02000a;
+        public static final int ic_action_students_green=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int perm_group_calendar=0x7f02000d;
+        public static final int perm_group_communication=0x7f02000e;
+        public static final int perm_group_notice=0x7f02000f;
+        public static final int perm_group_option=0x7f020010;
+        public static final int perm_group_students=0x7f020011;
     }
     public static final class id {
         public static final int action_settings=0x7f08004d;
@@ -469,23 +481,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class layout {
         public static final int activity_client=0x7f030000;
         public static final int activity_group=0x7f030001;
-        public static final int activity_group_test=0x7f030002;
-        public static final int activity_group_view=0x7f030003;
-        public static final int activity_layout=0x7f030004;
-        public static final int activity_main=0x7f030005;
-        public static final int activity_write=0x7f030006;
-        public static final int adaptor_empty_list=0x7f030007;
-        public static final int adaptor_form_basic=0x7f030008;
-        public static final int adaptor_group_list=0x7f030009;
-        public static final int element_dialog_frame=0x7f03000a;
-        public static final int element_dialog_menus=0x7f03000b;
-        public static final int element_dialog_msgbox=0x7f03000c;
-        public static final int element_footer=0x7f03000d;
-        public static final int element_header=0x7f03000e;
-        public static final int element_listview_footer=0x7f03000f;
-        public static final int element_listview_header=0x7f030010;
-        public static final int element_notice_screen=0x7f030011;
-        public static final int element_write_functions=0x7f030012;
+        public static final int activity_group_view=0x7f030002;
+        public static final int activity_layout=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_write=0x7f030005;
+        public static final int adaptor_empty_list=0x7f030006;
+        public static final int adaptor_form_basic=0x7f030007;
+        public static final int adaptor_group_list=0x7f030008;
+        public static final int element_dialog_frame=0x7f030009;
+        public static final int element_dialog_menus=0x7f03000a;
+        public static final int element_dialog_msgbox=0x7f03000b;
+        public static final int element_footer=0x7f03000c;
+        public static final int element_header=0x7f03000d;
+        public static final int element_listview_footer=0x7f03000e;
+        public static final int element_listview_header=0x7f03000f;
+        public static final int element_notice_screen=0x7f030010;
+        public static final int element_write_functions=0x7f030011;
     }
     public static final class menu {
         public static final int activity_client=0x7f0a0000;

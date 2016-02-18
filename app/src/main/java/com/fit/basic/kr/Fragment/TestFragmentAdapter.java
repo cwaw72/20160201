@@ -9,10 +9,10 @@ import com.fit.basic.kr.R;
 public class TestFragmentAdapter extends FragmentPagerAdapter implements IconPagerAdapter {
     protected static final String[] CONTENT = new String[] { "a", "b", "c", "d", };
     protected static final int[] ICONS = new int[] {
-            R.drawable.ic_action_name,
-            R.drawable.ic_action_name,
-            R.drawable.ic_action_name,
-            R.drawable.ic_action_name
+            R.drawable.perm_group_notice,
+            R.drawable.perm_group_calendar,
+            R.drawable.perm_group_communication,
+            R.drawable.perm_group_students
     };
 
     private int mCount = CONTENT.length;

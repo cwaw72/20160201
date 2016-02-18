@@ -76,7 +76,7 @@
 
         <activity android:name="com.fit.basic.kr.View.SampleIconsDefault" />
         <activity
-            android:name="com.fit.basic.kr.Fragment.Activity_group_test"
+            android:name="com.fit.basic.kr.Fragment.Activity_group_view"
             android:label="@string/title_activity_activity_group_test" />
     </application>
 

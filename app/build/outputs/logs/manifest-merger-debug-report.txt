@@ -190,7 +190,7 @@ activity#com.fit.basic.kr.View.SampleIconsDefault
 ADDED from AndroidManifest.xml:77:9
 	android:name
 		ADDED from AndroidManifest.xml:78:13
-activity#com.fit.basic.kr.Fragment.Activity_group_test
+activity#com.fit.basic.kr.Fragment.Activity_group_view
 ADDED from AndroidManifest.xml:79:9
 	android:label
 		ADDED from AndroidManifest.xml:81:13

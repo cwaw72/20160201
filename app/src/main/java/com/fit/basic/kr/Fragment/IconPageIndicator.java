@@ -23,6 +23,7 @@ import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 
@@ -133,6 +134,23 @@ public class IconPageIndicator extends HorizontalScrollView implements PageIndic
         for (int i = 0; i < count; i++) {
             ImageView view = new ImageView(getContext(), null, R.attr.vpiIconPageIndicatorStyle);
             view.setImageResource(iconAdapter.getIconResId(i));
+
+            view.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int index = ((ViewGroup) v.getParent()).indexOfChild(v);
+
+                    onPageSelected(index);
+
+                    //Log.d("aaa", index + " indicator selected : long click");
+
+                    //TODO show alternative tab list to change tab
+                }
+            });
+
+
+
+
             mIconsLayout.addView(view);
         }
         if (mSelectedIndex > count) {
